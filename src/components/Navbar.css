@@ -1,0 +1,116 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  align-items: flex-start; /* Align items at the start */
+  background-color: #fdfdfd;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  position: relative; /* To position the sidebar within the navbar */
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  margin-left: 1000px; /* Space between the toggle button and the links */
+  
+}
+
+.navbar-links a {
+  color: rgb(109, 166, 247);
+  text-decoration: none;
+  margin-right:20px;
+}
+
+.navbar-links .home-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7fbf7; /* Primary button color */
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-links .home-button:hover {
+  background-color: #8bf4a4; /* Hover color */
+}
+.navbar-links .login-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7fbf7; /* Primary button color */
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-links .login-button:hover {
+  background-color: #8bf4a4; /* Hover color */
+}
+.navbar-links .register-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7fbf7; /* Primary button color */
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+  border-radius: 35px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-links .register-button:hover {
+  background-color: #8bf4a4; /* Hover color */
+}
+.sidebar-toggle {
+  background-color: #fbfbfb;
+  border-radius: 35px;
+  color: rgb(40, 34, 34);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover{
+  background-color: #8bf4a4;
+}
+.sidebar {
+  position: fixed; /* Fixed position to the left */
+  top: 60px; /* Adjust based on your navbar height */
+  left: 0;
+  background-color: #3e2d2d;
+  width: 170px;
+  height: calc(42% - 50px); /* Full height minus the navbar height */
+  display: none;
+  transition: all 0.3s ease;
+  overflow-y: auto; /* Handle overflow */
+}
+
+.sidebar.open {
+  display: block;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 10px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}

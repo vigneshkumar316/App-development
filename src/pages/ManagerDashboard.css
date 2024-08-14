@@ -1,0 +1,92 @@
+/* Container for the dashboard */
+.dashboard-container {
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2); /* Gradient background */
+    min-height: 83vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+    align-items: center;
+  }
+  
+  /* Notification styles */
+  .notification {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* List of requests */
+  .request-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Individual request item */
+  .request-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .request-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Details of the request */
+  .request-details {
+    margin-bottom: 15px;
+  }
+  
+  .request-details p {
+    margin: 5px 0;
+  }
+  
+  /* Actions for each request */
+  .request-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .approve-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .approve-btn:hover {
+    background-color: #218838;
+    transform: scale(1.02);
+  }
+  
+  .deny-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .deny-btn:hover {
+    background-color: #c82333;
+    transform: scale(1.02);
+  }
+  

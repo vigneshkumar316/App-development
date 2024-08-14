@@ -1,0 +1,45 @@
+/* Sidebar.css */
+
+
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  left: 260px; /* Adjust this value as needed */
+  background-color: #111;
+  border: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar.active .toggle-btn {
+  left: 70px; /* Adjust based on the collapsed width */
+}
+
+.sidebar h2 {
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddd;
+}
+
+/* Additional sidebar styles as needed */

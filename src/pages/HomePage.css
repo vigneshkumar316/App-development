@@ -1,0 +1,64 @@
+/* HomePage.css */
+
+/* General styling for the home container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+/* Styling for the hero section */
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the text content */
+.hero-content {
+  max-width: 600px;
+  margin: 20px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8); /* Optional: add a white background with some transparency */
+  padding-top: 140px; /* Add padding for better spacing */
+  border-radius: 30px; /* Optional: add rounded corners */
+  
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+}
+
+/* Styling for the image */
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Styling for the heading */
+.hero-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  font-weight: 700; /* Bold font weight */
+}
+
+/* Styling for the paragraphs */
+.hero-content p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  line-height: 1.5; /* Adjust line height for readability */
+  font-weight: 400; /* Regular font weight */
+}

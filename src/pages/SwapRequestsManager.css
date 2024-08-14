@@ -1,0 +1,45 @@
+/* SwapRequestsManager.css */
+.swap-requests-manager {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .swap-requests-manager h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .request-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .request-item div {
+    margin-bottom: 10px;
+  }
+  
+  .request-item button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .request-item button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .request-item button:first-of-type {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .request-item button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
